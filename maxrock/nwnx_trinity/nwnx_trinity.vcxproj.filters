@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\nwnxBase">
+      <UniqueIdentifier>{1be6e5b8-49f2-46c5-aca7-04213dd0a8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nwn_internal">
+      <UniqueIdentifier>{6d225615-d19a-4d6a-8c7c-b8534cb5067c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\nwnxBase">
+      <UniqueIdentifier>{01032df0-be27-4be7-88c2-125af3030085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CTrinity_XP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HookFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nwnx_trinity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trindll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NWNXdll\IniFile.cpp">
+      <Filter>Source Files\nwnxBase</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFile.cpp">
+      <Filter>Source Files\nwnxBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NWNXdll\NWNXBase.cpp">
+      <Filter>Source Files\nwnxBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CExoString.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CFactionManager.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CItemRepository.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CNWSArea.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CNWSCreature.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CNWSCreatureStats.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CNWSObject.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CNWSPlaceable.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CNWSScriptVarTable.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CServerExoApp.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\CServerExoAppInternal.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nwn_internals\nwn_internals.cpp">
+      <Filter>Source Files\nwn_internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CTrinityXP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HookFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nwnx_trinity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NWNXdll\IniFile.h">
+      <Filter>Header Files\nwnxBase</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFile.h">
+      <Filter>Header Files\nwnxBase</Filter>
+    </ClInclude>
+    <ClInclude Include="madCHook.h">
+      <Filter>Header Files\nwnxBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NWNXdll\NWNXBase.h">
+      <Filter>Header Files\nwnxBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
